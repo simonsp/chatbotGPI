@@ -1,0 +1,32 @@
+La rama development es la rama principal en donde se deben realizar
+los pull request de las ramas cuando estas tareas esten finalizadas y con versiones
+estables.
+
+Desde la rama development nacen tres sub ramas, que son de acuerdo a los subequipos:
+- branch-Frontend
+- branch-Backend
+- branch-Database
+
+--------------master--------------->
+  \-----------development---------->
+    \--------frontend----->
+    \--------backend------>
+    \--------database----->
+    
+Por lo tanto, si uno de los equipos necesita ir probando su avance con el trabajo
+de otro de los equipos, deben traer los cambios estables que estarán en development
+y en caso de necesitar cambios aún no estables deben traerse la rama del equipo
+correspondiente
+
+Por ejemplo: 
+Si el equipo de backend necesita integrar la base de datos, estando en la rama de 
+backend deben traerse los avances estables desde development, los cuales deberian
+tener versiones estables de la base de datos.
+
+En otro caso, si el equipo de backend necesita un cambio que aún no ha sido mergeado
+a development, deben traer directamente la rama de database hasta su entorno de trabajo.
+
+Cuando las funcionalidades principales de cada rama esten en versiones estables
+y probadas con los avances de los otros equipos, se debe realizar el pull request
+a la rama development, el cual debe ser revisado (en el mejor de los casos) por todo
+el equipo de desarrollo.
