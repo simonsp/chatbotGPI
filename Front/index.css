@@ -1,0 +1,36 @@
+/*Color de fondo*/
+body{
+    background: #3E5151;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*
+    estilo del cuerpo de la tarjeta, donde van los dialogos del chat
+*/
+#cuerpoTarjeta{
+    height: 350px;
+    border-left-style: dashed;
+    border-right-style: dashed;
+    border-width: 1px;
+    border-color: grey;
+}
+
+#cuerpoTarjeta::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#cuerpoTarjeta::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+#cuerpoTarjeta::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: rgb(68, 65, 65);
+}
