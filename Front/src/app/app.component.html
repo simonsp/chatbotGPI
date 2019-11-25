@@ -8,17 +8,17 @@
                     <h3>ChatBot GPI</h3>
                 </div>
 
-                <div class="card-body text-left overflow-auto" id="cuerpoTarjeta">
+                <div class="card-body text-left overflow-auto" #cuerpoTarjeta id="cuerpoTarjetita">
                     <p style="color:rgb(128, 128, 128)" class="text-center">¡Bienvenido al Chat!</p>
-
+                    <p> {{ mensajeHtml }} </p>
                 </div>
 
                 <div class="card-footer border-secondary bg-transparent">
                     <form id="mensajeForm" >
                         <div class="input-group">
-                            <input type="text" id="mensaje" class="form-control"/>
+                            <input type="text" class="form-control"  [(ngModel)]="mensajeCliente" [ngModelOptions]="{standalone: true}" />
                             <div class="input-group-append">
-                                <button class="btn btn-dark">
+                                <button class="btn btn-dark" (click)="enviarMensaje()" >
                                     Enviar <i class="far fa-comment"></i>
                                 </button>
 

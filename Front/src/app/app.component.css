@@ -2,7 +2,7 @@
 /*
   estilo del cuerpo de la tarjeta, donde van los dialogos del chat
 */
-#cuerpoTarjeta{
+#cuerpoTarjetita{
   height: 350px;
   border-left-style: dashed;
   border-right-style: dashed;
@@ -10,19 +10,19 @@
   border-color: grey;
 }
 
-#cuerpoTarjeta::-webkit-scrollbar-track
+#cuerpoTarjetita::-webkit-scrollbar-track
 {
 border-radius: 10px;
 background-color: #F5F5F5;
 }
 
-#cuerpoTarjeta::-webkit-scrollbar
+#cuerpoTarjetita::-webkit-scrollbar
 {
 width: 12px;
 background-color: #F5F5F5;
 }
 
-#cuerpoTarjeta::-webkit-scrollbar-thumb
+#cuerpoTarjetita::-webkit-scrollbar-thumb
 {
 border-radius: 10px;
 background-color: rgb(68, 65, 65);
