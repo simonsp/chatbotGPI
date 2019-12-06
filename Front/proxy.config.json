@@ -1,0 +1,9 @@
+{
+  "/API/*":{
+    "target":"http://34.67.11.100:8000/",
+    "secure": false,
+    "changeOrigin": true
+  }
+
+
+}
