@@ -2,7 +2,7 @@ import { Component, ElementRef, Renderer2, ViewChild } from '@angular/core';
 import { connectableObservableDescriptor } from 'rxjs/internal/observable/ConnectableObservable';
 import { HttpClient } from '@angular/common/http';
 import { post } from 'selenium-webdriver/http';
-
+//import { responsiveVoice } from 'node_modules/responsivevoice/responsivevoice';
 
 
 @Component({
@@ -18,7 +18,6 @@ export class AppComponent {
   constructor(private http: HttpClient, private renderer: Renderer2){
 
   }
-
 
   postData = {
       text: '',
@@ -53,7 +52,9 @@ export class AppComponent {
         const pe = this.renderer.createElement('p');
         const texto = this.renderer.createText('Bot: ' + responseData.text);
         this.renderer.appendChild(pe, texto);
+        this.renderer.addClass(pe,'voz');
         this.renderer.appendChild(this.cuerpoTarjeta.nativeElement, pe);
+
         pe.scrollIntoView();
     });
 
