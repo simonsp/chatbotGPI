@@ -25,7 +25,6 @@ export class AppComponent {
 
   mensajeCliente = '';
 
-
   enviarMensaje() {
 
     const pe = this.renderer.createElement('p');
@@ -49,8 +48,9 @@ export class AppComponent {
   onEnviarPost(postData) {
     this.http.post('/API/chatbot', postData) // cambiar a la url del chatbot, esa url es de prueba
       .subscribe(responseData => {
+        let info = JSON.parse(JSON.stringify(responseData));
         const pe = this.renderer.createElement('p');
-        const texto = this.renderer.createText('Bot: ' + responseData.text);
+        const texto = this.renderer.createText('Bot: ' + info.text);//responseData.text
         this.renderer.appendChild(pe, texto);
         this.renderer.addClass(pe,'voz');
         this.renderer.appendChild(this.cuerpoTarjeta.nativeElement, pe);
