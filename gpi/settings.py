@@ -125,10 +125,14 @@ CHATTERBOT = {
     'name': 'GPI_Medico',
     'django_app_name':'chatbotgpi',
     'logic_adapters': [
-        'chatterbot.logic.BestMatch'
+        'chatterbot.logic.BestMatch',
+        'chatterbot.logic.MathematicalEvaluation',
+        'chatterbot.logic.TimeLogicAdapter',
     ],
     'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
     'training_data': [
         'chatterbot.corpus.spanish.conversations',
+        'chatterbot.corpus.spanish.trivia',
+        'chatterbot.corpus.spanish.greetings',
     ]
 }
