@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>FrontChatBot</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <!----Iconos de Fontawesome----->
+  <script src="https://kit.fontawesome.com/1e84e28a05.js"></script>
+
+  <script>
+    function myVoz(){
+
+      var textoParrafo = document.getElementsByClassName("voz");
+
+      for (var i = 0; i < textoParrafo.length; i++) {
+        var aux = textoParrafo[i].innerText;
+        console.log(aux);
+      }
+
+      responsiveVoice.speak(aux, "Spanish Latin American Female");
+
+    }
+
+  </script>
+
+</head>
+<body>
+    <div>
+      </br></br>
+    </div>
+
+    <app-root>
+
+      <button onclick="myVoz()" class="btn btn-dark">Voz</button>
+    </app-root>
+
+    <button onclick="myVoz()" class="btn btn-dark" style="margin-left:41%">Escuchar la ultima frase del ChatBot</button>
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=qiFJ0poq"></script>
+</body>
+</html>
