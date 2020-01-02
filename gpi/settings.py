@@ -122,7 +122,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 CHATTERBOT = {
-    'name': 'GPI_Medico',
+    'name': 'GPI',
     'django_app_name':'chatbotgpi',
     'logic_adapters': [
         'chatterbot.logic.BestMatch',
@@ -131,8 +131,6 @@ CHATTERBOT = {
     ],
     'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
     'training_data': [
-        'chatterbot.corpus.spanish.conversations',
-        'chatterbot.corpus.spanish.trivia',
-        'chatterbot.corpus.spanish.greetings',
+        'chatterbot.corpus.spanish'
     ]
 }

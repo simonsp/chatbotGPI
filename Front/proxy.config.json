@@ -1,12 +1,7 @@
 {
   "/API/*":{
-    //TARGETS: 
-    //prod: http://34.67.11.100:8000/
-    //dev: http://localhost:8000/
     "target":"http://localhost:8000/",
     "secure": false,
     "changeOrigin": true
-  }
-
-
+  } 
 }

@@ -2,4 +2,4 @@ from django.apps import AppConfig
 
 
 class ChatbotgpiConfig(AppConfig):
-    name = 'chatbotgpi'
+    name = 'GPI Jarvis 2020'

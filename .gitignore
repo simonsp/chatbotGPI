@@ -114,3 +114,6 @@ media/
 #
 sentence_tokenizer.pickle
 
+# dolphin
+./directory
+
