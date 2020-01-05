@@ -11,6 +11,8 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+from chatterbot.response_selection import get_most_frequent_response
+from chatterbot.comparisons import levenshtein_distance
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -123,14 +125,23 @@ STATIC_URL = '/static/'
 
 CHATTERBOT = {
     'name': 'GPI',
-    'django_app_name':'chatbotgpi',
-    'logic_adapters': [
-        'chatterbot.logic.BestMatch',
-        'chatterbot.logic.MathematicalEvaluation',
-        'chatterbot.logic.TimeLogicAdapter',
-    ],
+    'django_app_name': 'chatbotgpi',
     'trainer': 'chatterbot.trainers.ChatterBotCorpusTrainer',
     'training_data': [
-        'chatterbot.corpus.spanish'
-    ]
+        'utils.corpus.customer'
+    ],
+    'preproccesors': [
+        'utils.preproccesors.ourPreproccesors.clean_whitespace',
+        'utils.preproccesors.ourPreproccesors.to_lower_case',
+        'utils.preproccesors.ourPreproccesors.remove_characters',
+    ],
+    'logic_adapters': [
+        {
+            'import_path': 'chatterbot.logic.BestMatch',
+            'default_response': "Lo siento, no he entendido lo que me has escrito, aún estoy aprendiendo, por favor, intenta de otra forma.",
+            'maximun_similarity_threshold': 0.80,
+            'statement_comparison_function': levenshtein_distance,
+            'response_selection_method': get_most_frequent_response,
+        }
+    ],
 }
