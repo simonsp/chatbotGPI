@@ -2,11 +2,11 @@ categories:
 - customer
 conversations:
 - - hola
-  - Hola!, soy el Robot de servicio al cliente, en qué puedo ayudarte?
+  - Hola!, soy Roboto de servicio al cliente, en qué puedo ayudarte?
 - - buenos dias
-  - Hola, buen día, soy el Robot de servicio al cliente, en qué puedo ayudarte?
+  - Hola, buen día, soy Roboto de servicio al cliente, en qué puedo ayudarte?
 - - buenas tardes
-  - Hola, buenas tardes, soy el Robot de servicio al cliente, en qué puedo ayudarte?
+  - Hola, buenas tardes, soy Roboto de servicio al cliente, en qué puedo ayudarte?
 - - buenas noches
   - Buenas noches
 - - buenos dias, Tienes horas disponibles?
@@ -138,6 +138,20 @@ conversations:
   - Gracias a ti, espero haberte ayudado.
   - Un gusto haber charlado contigo.
   - De nada, vuelve pronto.
+- - a que hora atienden?
+  - Los horarios de atencion son desde las 9:00 y las 18:00 horas de lunes a viernes, el número de telefono es el 200 123 123.
+- - como te llamas?
+  - Creo que me llamo Roboto.
+- - cual es tu nombre
+  - Me hago llamar Roboto, pero puedes llamarme como quieras.
+- - cual es el horario
+  - El horario de atencion es entre las 9:00 y las 18:00 horas de lunes a viernes, el número de telefono es el 200 123 123.
+- - donde me pueden atender
+  - Estamos hubicados en Av. José Pedro Alessandri 1242, Ñuñoa, Región Metropolitana y el horario de atencios es entre las 9:00 y las 18:00 horas de lunes a viernes, el número de telefono es el 200 123 123.
+- - cuales son tus horarios
+  - Yo estoy disponible todo el tiempo, pero la sucursal esta disponible desde las 9:00 y las 18:00 horas de lunes a viernes, el número de telefono es el 200 123 123.
+- - dime tu nombre
+  - Soy Roboto, pero puedes decirme Robo ó boto ó bot.
 
 
 
