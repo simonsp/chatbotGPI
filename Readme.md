@@ -21,12 +21,6 @@ _Primero instalamos los paquetes necesarios incluidos en 'requirements.txt'_
 pip install -r requirements.txt
 ```
 
-Luego, copia los archivos de corpus dentro de 
-
-```
-env/lib/site_packages/chatterbot_corpus/data/spanish
-```
-
 Luego vuelve a la raiz del proyecto y ejecuta los siguientes comandos para migrar y entrenar al bot
 
 ```
@@ -38,7 +32,10 @@ python manage.py migrate django_chatterbot
 
 ## Inicializando el servidor ⚙️
 
-_Para iniciar el servidor necesitas ejecutar el siguiente comando_
+##### Basico para correr el server
+
+Para iniciar el servidor necesitas ejecutar el siguiente comando_
+
 ```
 python manage.py runserver
 ```
@@ -56,6 +53,16 @@ _EJEMPLO:_
     
 }
 ```
+
+**La versión viene con tres preprocesadores, los cuales limpian espacios en blanco, caractéres indeseados y también deja todo en minúscula*
+
+**La version viene con un corpus creado por nosotros, con las respuestas básicas para un servicio de atención al cliente de algún servicio de salud.*
+
+##### **Para crear nuevos preprocesadores y modificar o agregar corpus**, estos se enuentran en la carpeta `/utils`
+
+- Para agregar un nuevo preproccesador, dentro del archivo `outProccesors.py` y genera una nueva funcion recibiendo como argumento una instancia de la clase `sentence` la cual contiene un atributo `text` que puedes preprocesar con tu propio algoritmo.
+- Para modificar el corpus para un nuevo entrenamiento, dentro de la carpeta corpus estan todos los corpus en formato en yml, con `- -` para las sentencias que recibe y `-` para las respuestas (debe mantenerse el formato, intenten guiarse con el formato de los corpus que ya están hechos, intentando no colocar caracteres extraños en las oraciones con - -, debido a que esas son almacenadas para ser comparadas con las entradas del usuario que sí son preprocesadas). Luego, en `gpi/settings.py` debes agregar a trainers el corpus deseado dentro del arreglo.
+- ***Recomendación:*** Cuando generes un cambio, intenta borrar las carpetas caché de tu proyecto, así como las bases de datos o archivos SQLITE, con esto evitas que responda con entrenamientos pasados. Luego migra todo nuevamente como aparece en el punto anterior.
 
 # Frontend
 
