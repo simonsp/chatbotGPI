@@ -140,7 +140,7 @@ CHATTERBOT = {
             'import_path': 'chatterbot.logic.BestMatch',
             'default_response': "Lo siento, no he entendido lo que me has escrito, aún estoy aprendiendo, por favor, intenta de otra forma.",
             'maximun_similarity_threshold': 0.80,
-            'statement_comparison_funcion': levenshtein_distance,
+            'statement_comparison_function': levenshtein_distance,
             'response_selection_method': get_most_frequent_response,
         }
     ],
