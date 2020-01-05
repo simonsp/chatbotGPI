@@ -1,0 +1,29 @@
+
+/*
+  estilo del cuerpo de la tarjeta, donde van los dialogos del chat
+*/
+#cuerpoTarjetita{
+  height: 350px;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-width: 1px;
+  border-color: grey;
+}
+
+#cuerpoTarjetita::-webkit-scrollbar-track
+{
+border-radius: 10px;
+background-color: #F5F5F5;
+}
+
+#cuerpoTarjetita::-webkit-scrollbar
+{
+width: 12px;
+background-color: #F5F5F5;
+}
+
+#cuerpoTarjetita::-webkit-scrollbar-thumb
+{
+border-radius: 10px;
+background-color: rgb(68, 65, 65);
+}
