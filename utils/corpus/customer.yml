@@ -1,0 +1,149 @@
+categories:
+- customer
+conversations:
+- - hola
+  - Hola!, soy el Robot de servicio al cliente, en qué puedo ayudarte?
+- - buenos dias
+  - Hola, buen día, soy el Robot de servicio al cliente, en qué puedo ayudarte?
+- - buenas tardes
+  - Hola, buenas tardes, soy el Robot de servicio al cliente, en qué puedo ayudarte?
+- - buenas noches
+  - Buenas noches
+- - buenos dias, Tienes horas disponibles?
+  - Hola, qué tal?, creo tener algunas horas disponibles...
+- - hola, Tienes horas disponibles?
+  - Hola, qué tal?, creo tener algunas horas disponibles...
+- - buenas tardes, Tienes horas disponibles?
+  - Hola, qué tal?, creo tener algunas horas disponibles...
+- - buenas noches, Tienes horas disponibles?
+  - Hola, qué tal?, creo tener algunas horas disponibles...
+- - buenas, Tienes horas disponibles?
+  - Hola, qué tal?, creo tener algunas horas disponibles...
+- - tienes horas disponibles?
+  - Sí, tengo horas disponibles.
+  - Quizás tenga alguna. Puedes llamar al 200 123 123 para revisar la agenda en detalle. 
+- - para cuando tienes horas?
+  - Existen horas para la próxima semana, si deseas sabes mas detalles por favor contactate al teléfono 200 123 123.
+- - tienes horas para mañana?
+  - Existen horas sólo para la próxima semana, si deseas sabes mas detalles por favor contactate al teléfono 200 123 123.
+- - tienes horas para la próxima semana?
+  - Si, quedan horas disponibles para la próxima semana, si deseas sabes mas detalles por favor contactate al teléfono 200 123 123.
+- - a qué hora tienes disponibles?
+  - Tengo horas disponibles entre las 9:00 y las 18:00, para más información y disponibilidad contactate al 200 123 123.
+- - cómo puedo agendar una hora? 
+  - Puedes llamar al numero de atención 200 123 123. 
+- - como puedo agendar?
+  - Puedes llamar al número de atención 200 123 123.
+- - como agendo?
+  - Puedes llamar al número de atención 200 123 123.
+- - hola necesito reservar una hora, cómo lo hago?
+  - Para reservar una hora puedes contactarte al número 200 123 123.
+- - como reservo una hora?
+  - Para reservar una hora puedes contactarte al número 200 123 123.
+- - como reservo hora con un médico?
+  - Para reservar una hora puedes contactarte al número 200 123 123.
+- - como reservo una hora con ustedes?
+  - Para reservar una hora puedes contactarte al número 200 123 123.
+- - como reservo una hora para mañana?
+  - Para reservar una hora puedes contactarte al número 200 123 123, de acuerdo a la agenda disponible.
+- - hola como reservo una hora para mañana?
+  - Para reservar una hora puedes contactarte al número 200 123 123, de acuerdo a la agenda disponible.
+- - hola reservo una hora con ustedes?
+  - Para reservar una hora puedes contactarte al número 200 123 123, de acuerdo a la agenda disponible.
+- - buenas tardes, como reservo una hora?
+  - Para reservar una hora puedes contactarte al número 200 123 123, de acuerdo a la agenda disponible.
+- - buenos días, como reservo una hora?
+  - Para reservar una hora puedes contactarte al número 200 123 123, de acuerdo a la agenda disponible.
+- - buenas noches, como reservo una hora?
+  - Para reservar una hora puedes contactarte al número 200 123 123, de acuerdo a la agenda disponible.
+- - a que numero tengo que llamar?
+  - Puedes llamar al número de atención 200 123 123.
+- - que especialidades tiene?
+  - Dentro de las especialidades se encuentran odontología, medicina General, pediatría, gastroenterología, traumatología. Para más información puede llamar al numero de atención 200 123 123.
+- - tiene medicina general? 
+  - Dentro de las especialidades se encuentran odontología, medicina General, pediatría, gastroenterología, traumatología. Para más información puede llamar al numero de atención 200 123 123.
+- - tiene pediatría? 
+  - Dentro de las especialidades se encuentran odontología, medicina General, pediatría, gastroenterología, traumatología. Para más información puede llamar al numero de atención 200 123 123.
+- - tiene gastroenterologia? 
+  - Dentro de las especialidades se encuentran odontología, medicina General, pediatría, gastroenterología, traumatología. Para más información puede llamar al numero de atención 200 123 123.
+- - cuantas especialidades tiene? 
+  - Dentro de las especialidades se encuentran odontología, medicina General, pediatría, gastroenterología, traumatología. Para más información puede llamar al numero de atención 200 123 123.
+- - tienen especialidad de odontología?
+  - Dentro de las especialidades se encuentran odontología, medicina General, pediatría, gastroenterología, traumatología. Para más información puede llamar al numero de atención 200 123 123.
+- - como cancelo la hora?
+  - Puedes llamar al número de atención 200 123 123.
+- - no puedo asistir, puedo cancelar mi hora?
+  - Puedes llamar al número de atención 200 123 123 para cancelar tu hora.
+- - puedo cambiar mi hora?
+  - Puedes llamar al número de atención 200 123 123 para reagendar tu cita.
+- - como cambio mi hora?
+  - Puedes llamar al número de atención 200 123 123 para reagendar tu cita.
+- - necesito cambiar mi hora Que tengo que hacer?
+  - Puedes llamar al número de atención 200 123 123 para reagendar tu cita.
+- - en donde queda la consulta?
+  - Estamos ubicados en Av. José Pedro Alessandri 1242, Ñuñoa, Región Metropolitana.
+- - cual es la dirección?
+  - Estamos ubicados en Av. José Pedro Alessandri 1242, Ñuñoa, Región Metropolitana.
+- - donde estan ubicados?
+  - Estamos ubicados en Av. José Pedro Alessandri 1242, Ñuñoa, Región Metropolitana.
+- - donde estan?
+  - Estamos ubicados en Av. José Pedro Alessandri 1242, Ñuñoa, Región Metropolitana.
+- - cual es el horario de atencion?
+  - El horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - hasta qué hora atienden?
+  - El horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - a que hora abren?
+  - El horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - que dias atienden?
+  - El horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - atienden los fines de semana?
+  - El horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - atienden los sábados?
+  - El horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - atienden los domingos?
+  - El horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - sabado?
+  - Nuestro horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - domingo?
+  - El horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - lunes
+  - Claro! horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - martes
+  - Claro! horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - miercoles
+  - Claro! horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - jueves
+  - Claro! horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - viernes
+  - Claro! horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes.
+- - tienen telefono?
+  - Claro! horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes, el número de telefono es el 200 123 123.
+- - tienen numero para llamar?
+  - Claro! horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes, el número de telefono es el 200 123 123.
+- - tienen numero de contacto?
+  - Claro! horario de atención es entre las 9:00 y las 18:00 horas de lunes a viernes, el número de telefono es el 200 123 123.
+- - gracias
+  - Gracias a ti, espero haberte ayudado.
+  - Un gusto haber charlado contigo.
+  - De nada, vuelve pronto.
+- - muchas gracias
+  - Gracias a ti, espero haberte ayudado.
+  - Un gusto haber charlado contigo.
+  - De nada, vuelve pronto.
+- - muchas gracias por todo
+  - Gracias a ti, espero haberte ayudado.
+  - Un gusto haber charlado contigo.
+  - De nada, vuelve pronto.
+- - muchas gracias por tu ayuda
+  - Gracias a ti, espero haberte ayudado.
+  - Un gusto haber charlado contigo.
+  - De nada, vuelve pronto.
+
+
+
+
+
+
+
+
+
